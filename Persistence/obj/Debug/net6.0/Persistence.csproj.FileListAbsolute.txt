@@ -1,0 +1,17 @@
+D:\Users\JOAN ANDRES\Desktop\Pruebas Técnicas\SIAP\ProyectoSIAP\SIAP.App\Persistence\obj\Debug\net6.0\Persistence.csproj.AssemblyReference.cache
+D:\Users\JOAN ANDRES\Desktop\Pruebas Técnicas\SIAP\ProyectoSIAP\SIAP.App\Persistence\obj\Debug\net6.0\Persistence.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\JOAN ANDRES\Desktop\Pruebas Técnicas\SIAP\ProyectoSIAP\SIAP.App\Persistence\obj\Debug\net6.0\Persistence.AssemblyInfoInputs.cache
+D:\Users\JOAN ANDRES\Desktop\Pruebas Técnicas\SIAP\ProyectoSIAP\SIAP.App\Persistence\obj\Debug\net6.0\Persistence.AssemblyInfo.cs
+D:\Users\JOAN ANDRES\Desktop\Pruebas Técnicas\SIAP\ProyectoSIAP\SIAP.App\Persistence\obj\Debug\net6.0\Persistence.csproj.CoreCompileInputs.cache
+D:\Users\JOAN ANDRES\Desktop\Pruebas Técnicas\SIAP\ProyectoSIAP\SIAP.App\Persistence\bin\Debug\net6.0\Persistence.deps.json
+D:\Users\JOAN ANDRES\Desktop\Pruebas Técnicas\SIAP\ProyectoSIAP\SIAP.App\Persistence\bin\Debug\net6.0\Persistence.runtimeconfig.json
+D:\Users\JOAN ANDRES\Desktop\Pruebas Técnicas\SIAP\ProyectoSIAP\SIAP.App\Persistence\bin\Debug\net6.0\Persistence.dll
+D:\Users\JOAN ANDRES\Desktop\Pruebas Técnicas\SIAP\ProyectoSIAP\SIAP.App\Persistence\bin\Debug\net6.0\ref\Persistence.dll
+D:\Users\JOAN ANDRES\Desktop\Pruebas Técnicas\SIAP\ProyectoSIAP\SIAP.App\Persistence\bin\Debug\net6.0\Persistence.pdb
+D:\Users\JOAN ANDRES\Desktop\Pruebas Técnicas\SIAP\ProyectoSIAP\SIAP.App\Persistence\bin\Debug\net6.0\Domain.dll
+D:\Users\JOAN ANDRES\Desktop\Pruebas Técnicas\SIAP\ProyectoSIAP\SIAP.App\Persistence\bin\Debug\net6.0\Domain.pdb
+D:\Users\JOAN ANDRES\Desktop\Pruebas Técnicas\SIAP\ProyectoSIAP\SIAP.App\Persistence\obj\Debug\net6.0\Persistence.csproj.CopyComplete
+D:\Users\JOAN ANDRES\Desktop\Pruebas Técnicas\SIAP\ProyectoSIAP\SIAP.App\Persistence\obj\Debug\net6.0\Persistence.dll
+D:\Users\JOAN ANDRES\Desktop\Pruebas Técnicas\SIAP\ProyectoSIAP\SIAP.App\Persistence\obj\Debug\net6.0\ref\Persistence.dll
+D:\Users\JOAN ANDRES\Desktop\Pruebas Técnicas\SIAP\ProyectoSIAP\SIAP.App\Persistence\obj\Debug\net6.0\Persistence.pdb
+D:\Users\JOAN ANDRES\Desktop\Pruebas Técnicas\SIAP\ProyectoSIAP\SIAP.App\Persistence\obj\Debug\net6.0\Persistence.genruntimeconfig.cache
