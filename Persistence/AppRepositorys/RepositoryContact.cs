@@ -16,9 +16,9 @@ public class RepositoryContact:IRepositoryContact
         _appContext.SaveChanges();
         return contactAdd.Entity;
     }
-    void IRepositoryContact.DeleteContact(int idContact) //metodo que va a elimar un registro segun el id ingresado.
+    void IRepositoryContact.DeleteContact(string phoneContact) //metodo que va a elimar un registro segun el id ingresado.
     {
-        var contactFound = _appContext.Contacts.FirstOrDefault(c => c.Id == idContact); // Con la ayuda de Linq se ubica el primer registro que tenga el id que se pasa por parametro.
+        var contactFound = _appContext.Contacts.FirstOrDefault(c => c.PhoneNumber == phoneContact); // Con la ayuda de Linq se ubica el primer registro que tenga el id que se pasa por parametro.
         if (contactFound == null) return;
         _appContext.Contacts.Remove(contactFound);
         _appContext.SaveChanges();
@@ -27,9 +27,9 @@ public class RepositoryContact:IRepositoryContact
     {
         return _appContext.Contacts;
     }
-    Contact IRepositoryContact.GetContact(int idContact) // metodo para obtener un registro segun su id
+    Contact IRepositoryContact.GetContact(string phoneContact) // metodo para obtener un registro segun su phone number
     {
-        return  _appContext.Contacts.FirstOrDefault(c => c.Id == idContact);
+        return  _appContext.Contacts.FirstOrDefault(c => c.PhoneNumber == phoneContact);
     }
     Contact IRepositoryContact.UpdateContact(Contact contact) // metodo que actualiza el registro
     {
@@ -38,10 +38,10 @@ public class RepositoryContact:IRepositoryContact
         {
             contactFound.Name = contact.Name;
             // contactFound.CompanyId = contact.CompanyId;
-            contactFound.ProfileImage = contact.ProfileImage;
+            // contactFound.ProfileImage = contact.ProfileImage;
             contactFound.Email = contact.Email;
-            contactFound.BirthDate = contact.BirthDate;
-            contactFound.PhoneNumber = contact.PhoneNumber;
+            // contactFound.BirthDate = contact.BirthDate;
+            // contactFound.PhoneNumber = contact.PhoneNumber;
             contactFound.Address = contact.Address;
             _appContext.SaveChanges();
            

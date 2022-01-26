@@ -60,3 +60,11 @@ D:\Users\JOAN ANDRES\Desktop\Pruebas Técnicas\SIAP\ProyectoSIAP\SIAP.App\Consol
 D:\Users\JOAN ANDRES\Desktop\Pruebas Técnicas\SIAP\ProyectoSIAP\SIAP.App\Console\obj\Debug\net6.0\ref\Console.dll
 D:\Users\JOAN ANDRES\Desktop\Pruebas Técnicas\SIAP\ProyectoSIAP\SIAP.App\Console\obj\Debug\net6.0\Console.pdb
 D:\Users\JOAN ANDRES\Desktop\Pruebas Técnicas\SIAP\ProyectoSIAP\SIAP.App\Console\obj\Debug\net6.0\Console.genruntimeconfig.cache
+D:\Users\JOAN ANDRES\Desktop\Pruebas Técnicas\SIAP\ProyectoSIAP\SIAP.App\ConsoleP\obj\Debug\net6.0\Console.csproj.AssemblyReference.cache
+D:\Users\JOAN ANDRES\Desktop\Pruebas Técnicas\SIAP\ProyectoSIAP\SIAP.App\ConsoleP\obj\Debug\net6.0\Console.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\JOAN ANDRES\Desktop\Pruebas Técnicas\SIAP\ProyectoSIAP\SIAP.App\ConsoleP\obj\Debug\net6.0\Console.AssemblyInfoInputs.cache
+D:\Users\JOAN ANDRES\Desktop\Pruebas Técnicas\SIAP\ProyectoSIAP\SIAP.App\ConsoleP\obj\Debug\net6.0\Console.AssemblyInfo.cs
+D:\Users\JOAN ANDRES\Desktop\Pruebas Técnicas\SIAP\ProyectoSIAP\SIAP.App\ConsoleP\obj\Debug\net6.0\Console.csproj.CoreCompileInputs.cache
+D:\Users\JOAN ANDRES\Desktop\Pruebas Técnicas\SIAP\ProyectoSIAP\SIAP.App\ConsoleP\obj\Debug\net6.0\Console.dll
+D:\Users\JOAN ANDRES\Desktop\Pruebas Técnicas\SIAP\ProyectoSIAP\SIAP.App\ConsoleP\obj\Debug\net6.0\ref\Console.dll
+D:\Users\JOAN ANDRES\Desktop\Pruebas Técnicas\SIAP\ProyectoSIAP\SIAP.App\ConsoleP\obj\Debug\net6.0\Console.pdb

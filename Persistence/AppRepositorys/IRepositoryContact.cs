@@ -8,6 +8,6 @@ public interface IRepositoryContact
     IEnumerable<Contact> GetAllContact();
     Contact AddContact(Contact contact);
     Contact UpdateContact(Contact contact);
-    void DeleteContact(int idContact);
-    Contact GetContact(int idContact);
+    void DeleteContact(string phoneContact);
+    Contact GetContact(string phoneContact);
 }
