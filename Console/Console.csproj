@@ -16,6 +16,7 @@
   <!--Se agregaron referencias a las diferentes capas del proyecto-->
   <ItemGroup>
     <ProjectReference Include="..\Persistence\Persistence.csproj" />
+    <ProjectReference Include="..\Domain\Domain.csproj" />
   </ItemGroup>
 
 </Project>

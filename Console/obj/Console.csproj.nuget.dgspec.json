@@ -32,6 +32,9 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
+              "D:\\Users\\JOAN ANDRES\\Desktop\\Pruebas Técnicas\\SIAP\\ProyectoSIAP\\SIAP.App\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\Users\\JOAN ANDRES\\Desktop\\Pruebas Técnicas\\SIAP\\ProyectoSIAP\\SIAP.App\\Domain\\Domain.csproj"
+              },
               "D:\\Users\\JOAN ANDRES\\Desktop\\Pruebas Técnicas\\SIAP\\ProyectoSIAP\\SIAP.App\\Persistence\\Persistence.csproj": {
                 "projectPath": "D:\\Users\\JOAN ANDRES\\Desktop\\Pruebas Técnicas\\SIAP\\ProyectoSIAP\\SIAP.App\\Persistence\\Persistence.csproj"
               }

@@ -1853,6 +1853,7 @@
   },
   "projectFileDependencyGroups": {
     "net6.0": [
+      "Domain >= 1.0.0",
       "Microsoft.EntityFrameworkCore.Design >= 6.0.1",
       "Persistence >= 1.0.0"
     ]
@@ -1889,6 +1890,9 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
+            "D:\\Users\\JOAN ANDRES\\Desktop\\Pruebas Técnicas\\SIAP\\ProyectoSIAP\\SIAP.App\\Domain\\Domain.csproj": {
+              "projectPath": "D:\\Users\\JOAN ANDRES\\Desktop\\Pruebas Técnicas\\SIAP\\ProyectoSIAP\\SIAP.App\\Domain\\Domain.csproj"
+            },
             "D:\\Users\\JOAN ANDRES\\Desktop\\Pruebas Técnicas\\SIAP\\ProyectoSIAP\\SIAP.App\\Persistence\\Persistence.csproj": {
               "projectPath": "D:\\Users\\JOAN ANDRES\\Desktop\\Pruebas Técnicas\\SIAP\\ProyectoSIAP\\SIAP.App\\Persistence\\Persistence.csproj"
             }
