@@ -11,17 +11,16 @@ namespace Consola
         /*Este es en entry point de la API,  contiene todas las funcionalides de las operaciones CRUD sobre la capa Domain en la 
         * entidad Contact, aparte de esta entidad tambien se creo una entidad  Company que que su primary key se pasa como atributo
         * a la entidad Contact, se crearon unos registros quemados para Company, a continuacion se desplegara un menu con todas las
-        * indicaciones para modificar, eliminar, agrgar y buscar registros que se encuentran en una base local (localdb) en la 
-        *documentacionse especifica mas sobre su implemantacion. 
-        * NOTA: la interface no iplementa todas las verificaciones de entrada, se espera que el usuario ingrese los datos correctos 
-        * el campo Id es autuincremeltal de typo int.
+        * indicaciones para modificar, eliminar, agregar y buscar registros que se encuentran en una base de datos local (localdb) en la 
+        * documentacionse especifica mas sobre su implemantacion. 
+        * NOTA: la interface no implementa todas las verificaciones de entrada, se espera que el usuario ingrese los datos correctos 
+        * el campo Id es autoincremeltal de typo int.
         * Gracias 
         */
         static void Main(string[] args)
         {
-            Console.WriteLine("<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Welcome Backend Coding Challenge >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
+            Console.WriteLine("\n<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< Welcome Backend Coding Challenge >>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>");
             Menu();
-            // AddContact();
         }
 
         private static void Menu()
@@ -29,42 +28,54 @@ namespace Consola
 
             Console.WriteLine("SIAP management:\nWhat would you like to do?");
             Console.WriteLine("\n1_Create a new contact: (1)\n2_Edit a contact: (2)\n3_Search for a contact by phone number: (3)\n4_Delete a contact: (4)\n5_Show all contacts. (5)\n");
-            Console.Write("Please choose an option: ");
-            int option = Convert.ToInt32(Console.ReadLine());
-            while (option < 0 && option > 5)
+            try
             {
                 Console.Write("Please choose an option: ");
-                Convert.ToInt32(Console.ReadLine());
+                int option = Convert.ToInt32(Console.ReadLine());
+                while (option < 0 || option > 5)
+                {
+                    // Console.Write("Please choose an option: ");
+                    // Convert.ToInt32(Console.ReadLine());
+                    Menu();
+                }
+                switch (option)
+                {
+                    case 1: AddContact(); break;
+                    case 2:
+                        {
+                            Console.Write("Please enter a phone number: ");
+                            var contactPhone = Console.ReadLine();
+                            EditContact(contactPhone);
+                            break;
+                        }
+                    case 3:
+                        {
+                            Console.Write("Please enter a phone number: ");
+                            var contactNumber = Console.ReadLine();
+                            SearchContact(contactNumber);
+                            break;
+                        }
+                    case 4:
+                        {
+                            Console.Write("Please enter a phone number: ");
+                            string contactNumber = Console.ReadLine();
+                            DelateContacts(contactNumber);
+                            break;
+                        }
+                    case 5: GetAllContact(); break;
+                    default:
+                        Console.WriteLine("Thank you..");
+                        break;
+                }
+
             }
-            switch (option)
+            catch (System.Exception e)
             {
-                case 1: AddContact(); break;
-                case 2:
-                    {
-                        Console.Write("Please enter a phone number: ");
-                        var contactPhone = Console.ReadLine();
-                        EditContact(contactPhone);
-                        break;
-                    }
-                case 3:
-                    {
-                        Console.Write("Please enter a phone number: ");
-                        var contactNumber = Console.ReadLine();
-                        SearchContact(contactNumber);
-                        break;
-                    }
-                case 4:
-                    {
-                        Console.Write("Please enter a phone number: ");
-                        string contactNumber = Console.ReadLine();
-                        DelateContacts(contactNumber);
-                        break;
-                    }
-                case 5: GetAllContact(); break;
-                default:
-                    Console.WriteLine("Thank you..");
-                    break;
+
+                Console.WriteLine("Error: " + e.Message);
+                Menu();
             }
+
         }
         //Metodo para agrgar un nuevo contatcto
         private static void AddContact()
@@ -85,8 +96,6 @@ namespace Consola
             string address = Console.ReadLine();
             var contact = new Contact
             {
-
-
                 Name = name,
                 CompanyId = Convert.ToInt32(companyId),
                 ProfileImage = profileImage,
@@ -121,8 +130,6 @@ namespace Consola
                 Console.Write("Contact no found");
             }
             Menu();
-
-
         }
         //Metodo para buscar un contato por numero de telefono
         private static void SearchContact(string phoneContact)
@@ -164,6 +171,5 @@ namespace Consola
             }
             Menu();
         }
-
     }
 }
