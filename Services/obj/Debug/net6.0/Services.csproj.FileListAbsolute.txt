@@ -1,0 +1,7 @@
+D:\Users\JOAN ANDRES\Desktop\Pruebas Técnicas\SIAP\ProyectoSIAP\SIAP.App\Services\obj\Debug\net6.0\Services.csproj.AssemblyReference.cache
+D:\Users\JOAN ANDRES\Desktop\Pruebas Técnicas\SIAP\ProyectoSIAP\SIAP.App\Services\obj\Debug\net6.0\Services.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\JOAN ANDRES\Desktop\Pruebas Técnicas\SIAP\ProyectoSIAP\SIAP.App\Services\obj\Debug\net6.0\Services.AssemblyInfoInputs.cache
+D:\Users\JOAN ANDRES\Desktop\Pruebas Técnicas\SIAP\ProyectoSIAP\SIAP.App\Services\obj\Debug\net6.0\Services.AssemblyInfo.cs
+D:\Users\JOAN ANDRES\Desktop\Pruebas Técnicas\SIAP\ProyectoSIAP\SIAP.App\Services\obj\Debug\net6.0\Services.csproj.CoreCompileInputs.cache
+D:\Users\JOAN ANDRES\Desktop\Pruebas Técnicas\SIAP\ProyectoSIAP\SIAP.App\Services\obj\Debug\net6.0\Services.MvcApplicationPartsAssemblyInfo.cs
+D:\Users\JOAN ANDRES\Desktop\Pruebas Técnicas\SIAP\ProyectoSIAP\SIAP.App\Services\obj\Debug\net6.0\Services.MvcApplicationPartsAssemblyInfo.cache
